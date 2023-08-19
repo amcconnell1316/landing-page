@@ -1,0 +1,1 @@
+This project is for me to learn how to use CSS to layout a landing page for a website.
