@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header, .banner-container, .fish-container, .poem-container, .signup-container, .footer{
+    padding: 16px 76px 0px 76px;
+}
+
+.banner-container, .fish-container, .poem-container, .signup-container, .footer{
+    padding-bottom: 48px;
+    padding-top: 48px;
+}
+
+.header, .banner-container, .footer, .right-links a{
+    background-color: #1F2937;
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+.right-links{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+}
+
+.banner-container{
+    display: flex;
+    gap:24px;
+}
+
+.description-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    gap: 8px;
+}
+
+.description-header{
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+
+.description{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup{
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
+
+.fish-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.poem-container{
+    
+}
+
+.signup-container{
+    display: flex;
+}
+
+.footer{
+    
+}
