@@ -4,11 +4,11 @@ body{
     margin: 0;
 }
 
-.header, .banner-container, .fish-container, .poem-container, .signup-container, .footer{
+.header, .banner-container, .information-container, .poem-container, .signup-container, .footer{
     padding: 16px 76px 0px 76px;
 }
 
-.banner-container, .fish-container, .poem-container, .signup-container, .footer{
+.banner-container, .information-container, .poem-container, .signup-container, .footer{
     padding-bottom: 48px;
     padding-top: 48px;
 }
@@ -57,9 +57,22 @@ body{
 
 }
 
-.description{
+.information-header{
+    font-size: 32px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.secondary-text-light{
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.secondary-text-dark{
+    font-size: 18px;
+    color: #1f2937;
 }
 
 .signup{
@@ -69,9 +82,29 @@ body{
     padding: 8px 32px;
 }
 
+.information-container{
+    
+}
+
 .fish-container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+.fish{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+}
+
+.fish-pic{
+    border-radius: 8px;
+    border-color: #3882F6;
+    border-width: 4px;
+    border-style: solid;
 }
 
 .poem-container{
