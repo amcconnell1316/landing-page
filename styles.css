@@ -59,20 +59,22 @@ body{
 
 .information-header{
     font-size: 32px;
-    color: #1f2937;
     font-weight: bolder;
     text-align: center;
     margin-bottom: 16px;
 }
 
-.secondary-text-light{
-    font-size: 18px;
+.dark-text{
+    color: #1f2937;
+}
+
+.light-text{
     color: #e5e7eb;
 }
 
-.secondary-text-dark{
+.secondary-text{
     font-size: 18px;
-    color: #1f2937;
+    
 }
 
 .signup{
@@ -80,10 +82,6 @@ body{
     color: #f9faf8;
     border-radius: 8px;
     padding: 8px 32px;
-}
-
-.information-container{
-    
 }
 
 .fish-container{
@@ -108,7 +106,29 @@ body{
 }
 
 .poem-container{
-    
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.poem-container p{
+    margin: 0;
+}
+
+.poem{
+    font-style: italic;
+    font-size: 36px;
+}
+
+.poem-author, .poem-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.poem-author{
+    align-self: flex-end;
 }
 
 .signup-container{
