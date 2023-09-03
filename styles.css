@@ -42,20 +42,19 @@ body{
 .banner-container{
     display: flex;
     gap:24px;
+    justify-content: center;
 }
 
 .description-container{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    
+    align-items: flex-start;    
     gap: 8px;
 }
 
 .description-header{
     font-size: 48px;
     font-weight: bolder;
-
 }
 
 .information-header{
@@ -107,11 +106,17 @@ body{
 }
 
 .poem-container{
-    background-color: #e5e7eb;
+    background-color: #e5e7eb; 
+    display: flex;
+    justify-content: center;
+}
+
+.poem-format-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 8px;
+    width: 350px;
 }
 
 .poem-container p{
@@ -137,8 +142,9 @@ body{
     background-color: #3882F6;
     margin: 48px 76px 48px 76px;
     padding: 16px 48px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 16px;
 }
 
 .signup p{
